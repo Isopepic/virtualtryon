@@ -1,0 +1,26 @@
+# --- Core backend ---
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+pydantic==2.7.1
+
+# --- Core AI / Vision ---
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+opencv-python==4.9.0.80
+pillow==10.3.0
+numpy==1.26.4
+
+# --- Utils ---
+tqdm==4.66.4
+requests==2.32.3
+python-dotenv==1.0.1
+
+# --- Feedback (optionnel) ---
+# Choose one of these depending on what you use for feedback
+google-generativeai==0.5.2
+openai==1.35.0
+
+# --- Debug / Dev ---
+ipykernel==6.29.4
